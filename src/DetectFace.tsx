@@ -241,6 +241,7 @@ function DetectFace() {
     } else {
       stop();
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isRunning]);
 
   /**
